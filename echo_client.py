@@ -4,7 +4,8 @@ import traceback
 
 
 def client(msg, log_buffer=sys.stderr):
-    server_address = ('localhost', 10000)
+    #server_address = ('localhost', 10000)
+    server_address = ('172.16.67.100', 10000)
 
     #HOST = "localhost" # Hiro code
     #PORT = 10000 # Hiro code

@@ -5,7 +5,8 @@ import traceback
 
 def server(log_buffer=sys.stderr):
     # set an address for our server
-    address = ('127.0.0.1', 10000)
+    #address = ('127.0.0.1', 10000)
+    address = ('172.16.67.100', 10000)
     # TODO: Replace the following line with your code which will instantiate
     #       a TCP socket with IPv4 Addressing, call the socket you make 'sock'
     server_socket = socket.socket(socket.AF_INET, sock.SOCK_STREAM, socket.IPPROTO_TCP) # Hiro code
